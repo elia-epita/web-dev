@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="players">
+      <div id="player1" class="player">
+        <div class="image">
+          <img
+            src="https://images.pexels.com/photos/7598232/pexels-photo-7598232.jpeg?auto=compress"
+            alt="Picture of player"
+          />
+        </div>
+        <div class="name">X Player 1</div>
+        <div class="score" id="score_1">0</div>
+      </div>
+      <div id="player2" class="player">
+        <div class="image">
+          <img
+            src="https://images.pexels.com/photos/3281617/pexels-photo-3281617.jpeg?auto=compress"
+            alt="Picture of player"
+          />
+        </div>
+        <div class="name">O Player 2</div>
+        <div class="score" id="score_2">0</div>
+      </div>
+    </div>
+    <div class="tictactoe" id="board">
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+      <div class="board-cell" data-cell></div>
+    </div>
+    <div class="winning-msg" id="msg">
+      <div data-winning-msg></div>
+      <button id="restart-btn">Restart</button>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="winning-message" id="winningMessage">
+  <div data-winning-message-text></div>
+  <button id="restartButton">Restart</button>
+</div> -->
